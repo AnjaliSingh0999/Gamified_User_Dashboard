@@ -11,8 +11,8 @@ function App() {
   };
 
   const handleLogout = () => {
-    localStorage.clear();  // Clear all saved data
-    setUser(null);         // Reset user state to null to show login again
+    localStorage.clear();  
+    setUser(null);         
   };
 
   return (

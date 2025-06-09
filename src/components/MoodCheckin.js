@@ -1,23 +1,4 @@
-// import React from 'react';
-
-// export const MoodCheckinComponent = ({ onCheckin }) => {
-//   const moods = ['😊', '😔', '😡', '😴', '🤩'];
-
-//   return (
-//     <div>
-//       <h3>How are you feeling?</h3>
-//       {moods.map((mood) => (
-//         <button
-//           key={mood}
-//           onClick={() => onCheckin(mood)}
-//           style={{ margin: '5px', fontSize: '24px' }}
-//         >
-//           {mood}
-//         </button>
-//       ))}
-//     </div>
-//   );
-// };
+ 
 import React from 'react';
 
 export const MoodCheckinComponent = ({ onCheckin }) => {
@@ -42,7 +23,7 @@ export const MoodCheckinComponent = ({ onCheckin }) => {
     fontSize: '28px',
     padding: '10px 20px',
     backgroundColor: '#fff',
-    border: '2px solid #e91e63',  // <-- Pink border added here
+    border: '2px solid #e91e63',   
     borderRadius: '12px',
     cursor: 'pointer',
     transition: 'all 0.3s ease',
